@@ -10,7 +10,7 @@ package com.leetcode.easy;
  */
 public class PalindromeNumber_9 {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(10));
+        System.out.println(isPalindrome(121));
     }
 
     /**
