@@ -1,0 +1,5 @@
+/.idea
+/target
+/easy/.gradle
+/middle/.gradle
+/hard/.gradle
