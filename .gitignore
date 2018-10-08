@@ -1,5 +1,11 @@
 /.idea
 /target
 /easy/.gradle
+/easy/build.gradle
+/easy/settings.gradle
 /middle/.gradle
+/middle/build.gradle
+/middle/settings.gralde
 /hard/.gradle
+/hard/build/gradle
+/hard/settings.gradle
