@@ -1,5 +1,3 @@
-package com.leetcode.easy;
-
 /**
  *
  * https://leetcode.com/problems/palindrome-number/solution/
