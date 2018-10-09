@@ -1,3 +1,5 @@
+package com.leetcode;
+
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.
  * Note: Assume we are dealing with an environment which could only store integers within the 32-bit signed integer
@@ -7,12 +9,12 @@
  * @author wangkun@cetiti.com
  *
  */
-public class ReverseInteger_7 {
+public class T7ReverseInteger {
     public static void main(String[] args) {
         System.out.print(reverse(123));
     }
 
-    static int reverse(int x) {
+    private static int reverse(int x) {
         int result = 0;
         while (x != 0) {
             int pop = x % 10;

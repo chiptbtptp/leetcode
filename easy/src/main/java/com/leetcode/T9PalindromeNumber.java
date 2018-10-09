@@ -1,3 +1,5 @@
+package com.leetcode;
+
 /**
  *
  * https://leetcode.com/problems/palindrome-number/solution/
@@ -6,7 +8,7 @@
  * @author wangkun@cetiti.com
  * @since 1.0
  */
-public class PalindromeNumber_9 {
+public class T9PalindromeNumber {
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
     }
@@ -41,7 +43,7 @@ public class PalindromeNumber_9 {
 
     /**
      * Approach 1: Revert half of the number
-     Intuition
+     * Intuition
 
      The first idea that comes to mind is to convert the number into string, and check if the string is a palindrome,
      but this would require extra non-constant space for creating the string which is not allowed by the problem
