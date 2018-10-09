@@ -8,7 +8,7 @@ package com.leetcode;
  * @author wangkun@cetiti.com
  * @since 1.0
  */
-public class T9PalindromeNumber {
+public class T009PalindromeNumber {
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
     }

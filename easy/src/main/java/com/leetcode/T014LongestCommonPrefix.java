@@ -4,7 +4,7 @@ package com.leetcode;
  * @author wangkun@cetiti.com
  * @since 1.0
  */
-public class T14LongestCommonPrefix {
+public class T014LongestCommonPrefix {
     public static void main(String[] args) {
         String[] s = {"abcd","ab",""};
         System.out.println(longestCommonPrefix(s));

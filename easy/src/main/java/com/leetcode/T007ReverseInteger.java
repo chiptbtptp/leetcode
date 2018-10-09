@@ -9,7 +9,7 @@ package com.leetcode;
  * @author wangkun@cetiti.com
  *
  */
-public class T7ReverseInteger {
+public class T007ReverseInteger {
     public static void main(String[] args) {
         System.out.print(reverse(123));
     }

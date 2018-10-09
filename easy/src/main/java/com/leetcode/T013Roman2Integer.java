@@ -7,7 +7,7 @@ import java.util.Map;
  * @author wangkun@cetiti.com
  * @since 1.0
  */
-public class T13Roman2Integer {
+public class T013Roman2Integer {
     public static void main(String[] args) {
         System.out.println(romanToInt("MCMXCIV"));
     }
