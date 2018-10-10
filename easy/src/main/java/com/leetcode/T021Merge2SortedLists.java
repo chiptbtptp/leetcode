@@ -8,7 +8,7 @@ package com.leetcode;
  *  1. 非递归解法
  *  2. 递归解法
  *
- * @author wangkun@cetiti.com
+ * @author
  * @since 1.0
  */
 public class T021Merge2SortedLists {

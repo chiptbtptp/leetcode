@@ -11,7 +11,7 @@ import java.util.SplittableRandom;
  *  注意点： needle为空返回什么？
  *  needle长度大于输入字符串怎么办？
  *
- * @author wangkun@cetiti.com
+ * @author
  * @since 1.0
  */
 public class T028ImplementstrStr {

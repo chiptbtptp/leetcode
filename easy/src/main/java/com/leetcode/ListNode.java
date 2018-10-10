@@ -1,7 +1,7 @@
 package com.leetcode;
 
 /**
- * @author wangkun@cetiti.com
+ * @author
  * @since 1.0
  */
 public class ListNode {

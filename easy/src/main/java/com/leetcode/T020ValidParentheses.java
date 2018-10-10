@@ -20,7 +20,7 @@ import java.util.Stack;
  *
  *  Input: "{[]}"
  *  Output: true
- * @author wangkun@cetiti.com
+ * @author
  * @since 1.0
  */
 public class T020ValidParentheses {

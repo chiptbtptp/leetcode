@@ -8,7 +8,7 @@ import java.util.Stack;
  * range: [−2^31,  2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed
  * integer overflows.
  *
- * @author wangkun@cetiti.com
+ * @author
  *
  */
 public class T007ReverseInteger {
