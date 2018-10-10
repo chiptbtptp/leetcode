@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import java.util.Stack;
+
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.
  * Note: Assume we are dealing with an environment which could only store integers within the 32-bit signed integer
@@ -26,4 +28,5 @@ public class T007ReverseInteger {
         }
         return result;
     }
+
 }
