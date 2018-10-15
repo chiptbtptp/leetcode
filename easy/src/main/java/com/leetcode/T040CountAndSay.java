@@ -36,24 +36,25 @@ public class T040CountAndSay {
     }
 
     //递归算法
-    public String countAndSay2(int n) {
-        if(n == 1){
+    public String countAndSay1(int n) {
+        if (n == 1) {
             return "1";
         }
-        //递归调用，然后对字符串处理
-        String str = countAndSay(n-1) + "*";//为了str末尾的标记，方便循环读数
-        char[] c = str.toCharArray();
-        int count = 1;
-        String s = "";
-        for(int i = 0; i < c.length - 1;i++){
-            if(c[i] == c[i+1]){
-                count++;//计数增加
-            }else{
-                s = s + count + c[i];//上面的*标记这里方便统一处理
-                count = 1;//初始化
+
+        String s = countAndSay1(n - 1);
+        StringBuilder sb = new StringBuilder();
+
+        int len = s.length();
+        int cnt = 0;
+        for (int i = 0; i < len; i++) {
+            cnt++;
+            if (i == len - 1 || (i < len - 1 && s.charAt(i) != s.charAt(i + 1))) {
+                sb.append(cnt);
+                sb.append(s.charAt(i));
+                cnt = 0;
             }
         }
-        return s;
+        return sb.toString();
     }
 
 }
