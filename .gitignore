@@ -3,6 +3,6 @@
 /.gradle
 /leetcode.iml
 /target
-/easy/bulid
+/easy/bulid/
 /medium/build
 /hard/build
