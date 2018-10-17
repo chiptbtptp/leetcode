@@ -3,6 +3,5 @@
 /.gradle
 /leetcode.iml
 /target
-/easy/bulid/
-/medium/build
+*.class
 /hard/build
