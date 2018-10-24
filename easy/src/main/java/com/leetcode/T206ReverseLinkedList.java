@@ -28,8 +28,7 @@ public class T206ReverseLinkedList {
 
     }
 
-    //递归（尾递归）
-
+    //递归
     public ListNode reverseList2(ListNode head) {
         return reverseHelper(head, null);
     }
@@ -39,5 +38,16 @@ public class T206ReverseLinkedList {
         ListNode next = head.next;
         head.next = newHead;
         return reverseHelper(next, head);
+    }
+
+    //尾递归
+    public ListNode tailReverseList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newHead = tailReverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
     }
 }
