@@ -1,11 +1,11 @@
 package com.leetcode;
 
-import java.util.Collection;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 /**
+ * 学习使用滑动窗口
+ *
  * 给定一个字符串，找出最长的连续的没有重复字符的子字符串
  * Input: "abcabcbb"
  * Output: 3
